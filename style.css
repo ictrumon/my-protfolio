@@ -165,4 +165,27 @@ padding: 10px;
     font-weight: 400;
     line-height: 28px;
 }
-
+.ft{
+    background: #FFF8F3;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+    padding: 130px 200px;
+}
+.footer-colum{
+    width: 50%;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background: #FFF;
+}
+.social-link a{
+    margin-right: 30px;
+}
